@@ -3,5 +3,5 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
-  base: "/task-managment/",   // 👈 VERY IMPORTANT
+  base: "/task-manager/",   // 👈 Must match the new repo name exactly
 });
