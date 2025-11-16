@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import { useState, useEffect } from "react";
 
 import Header from "./components/Header";
@@ -29,7 +29,7 @@ function App() {
   };
 
   return (
-    <Router basename="/task-manager">
+    <Router>
       <Header />
       <main className="min-h-screen bg-gray-100 pb-10">
         <Routes>
