@@ -1,16 +1,62 @@
-# React + Vite
+📋 Task Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, modern, and fully responsive Task Manager built with React + Vite + Tailwind CSS.
+Includes task creation, editing, filtering, searching, and viewing— all saved using localStorage, so your data never disappears.
 
-Currently, two official plugins are available:
+🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+https://task-manager-beryl-omega.vercel.app/
 
-## React Compiler
+🌟 Features
+➕ Create Tasks
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Easily add new tasks with title, description, priority, status, and due date.
 
-## Expanding the ESLint configuration
+🔍 Search & Filter
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Search by title or description
+
+Filter by status
+
+Filter by priority
+
+✏ Edit Tasks
+
+Update any field anytime.
+
+👁 Detailed View
+
+Clean UI to read full task information.
+
+🗑 Delete Tasks
+
+One-click delete with smooth UI.
+
+💾 LocalStorage Support
+
+Your tasks remain saved even after refresh or closing the browser.
+
+📱 Fully Responsive
+
+Optimized for mobile, tablet, and desktop.
+
+🛠️ Tech Stack
+Technology	Purpose
+React	UI Development
+Vite	Fast build tool
+Tailwind CSS v4	Styling
+React Router DOM	Navigation
+LocalStorage	Save tasks
+📦 Installation
+git clone https://github.com/velmurugan20031610/task-manager.git
+cd task-manager
+npm install
+npm run dev
+
+🏗️ Build for Production
+npm run build
+
+📬 Contact
+
+If you found this project helpful, feel free to ⭐ the repository!
+🚀 Built with passion by Velmurugan 🤍
